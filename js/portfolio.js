@@ -58,13 +58,13 @@ function projThumbFnGen() {
     lastThumb = null;
 
     function projThumbFn(event) {
-        if (lastThumb) lastThumb.removeClass("proj-thumb-active");
+        if (lastThumb) lastThumb.removeClass("thumbnail-active");
         thisThumb = $(event.target);
         if (thisThumb.is(lastThumb)) {
             lastThumb = null;
             return;
         }
-        thisThumb.addClass("proj-thumb-active");
+        thisThumb.addClass("thumbnail-active");
         lastThumb = thisThumb;
         return;
     }

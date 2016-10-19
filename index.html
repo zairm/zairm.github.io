@@ -27,41 +27,40 @@
   </head>
 
   <body>
-    <nav class="navbar navbar-inverse navbar-static-top" style="margin-bottom: 0px;">
-        <div class="container containerCol">
+    <nav class="navbar navbar-inverse navbar-static-top">
+        <div class="container">
             <div class="row">
-                <div class="col-sm-4 nav" style="padding-left: 0px; padding-right: 0px;">
-                    <ul class="nav navbar-nav" style="width:100%; text-align: center;">
-                        <li class="nav-center-item"><a class="nav-btn-effect" href="#aboutSection">About</a></li>
+                <div class="col-sm-4 navCol">
+                    <ul class="nav navbar-nav">
+                        <li class="navbar-nav-li"><a href="#aboutSection">About</a></li>
                     </ul>
                 </div>
-                <div class="col-sm-4" style="padding-left: 0px; padding-right: 0px;">
-                    <ul class="nav navbar-nav" style="width:100%; text-align: center;">
-                        <li class="nav-center-item"><a class="nav-btn-effect" href="#projectsSection">Projects</a></li>
+                <div class="col-sm-4 navCol">
+                    <ul class="nav navbar-nav">
+                        <li class="navbar-nav-li"><a href="#projectsSection">Projects</a></li>
                     </ul>
                 </div>
-                <div class="col-sm-4" style="padding-left: 0px; padding-right: 0px;">
-                    <ul class="nav navbar-nav" style="width:100%; text-align: center;">
-                        <li class="nav-center-item"><a class="nav-btn-effect" href="#contactSection">Contact</a></li>
+                <div class="col-sm-4 navCol">
+                    <ul class="nav navbar-nav">
+                        <li class="navbar-nav-li"><a href="#contactSection">Contact</a></li>
                     </ul>
                 </div>
             </div>
         </div>
     </nav>
-    <div id="aboutSection" style="padding-top: 30px;">
-        <div class="container containerCol" style="color: #ccc; padding-top: 30px; padding-bottom: 45px;">
+    <div id="aboutSection">
+        <div class="container">
             <div class="row">
-                <div class="col-sm-8" style="border-color: #1a1a1a; border-width: 5px; border-style: solid; border-left: 0px; border-top: 0px; border-right: 0px;">
+                <div class="col-sm-8 textBox-1">
                     <h1>Hi There!</h1>
                     <br>
                     <p class="lead">I'm Zair - a GTA based web developer and designer in developement, with a goal towards full stack developement.</p>
                 </div>
             </div>
-            <p style="padding: 20px;"></p>
             <div class="row">
-                <div class="col-sm-9 col-sm-offset-3" style="border-color: #1a1a1a; border-width: 0px; border-bottom: 5px solid #1a1a1a; border-left: 5px solid #1a1a1a;">
+                <div class="col-sm-9 col-sm-offset-3 textBox-2">
                     <h2>My Focus</h2>
-                    <p style="margin-bottom: 20px;">
+                    <p>
                         I like to keep my design sweet, simple, and intuitive. To me, a good website is one that effortlessly delivers on its function, and then looks good - not the other way around.
                     </p>
                 </div>
@@ -69,39 +68,39 @@
         </div>
     </div>
 
-    <div id="projectsSection" class="container" style="margin-top: 110px; margin-bottom: 15px">
+    <div id="projectsSection" class="container sectionTitle">
         <div class="row">
             <div class="col-xs-12">
-                <h1 style="color:#bbbbbb;">Projects <small>With an Elegant Simplcity in mind.</small></h1>
+                <h1>Projects <small>With an Elegant Simplcity in mind.</small></h1>
             </div>
         </div>
     </div>
 
 
-    <div class="container containerCol">
-        <div class="row" style="padding-top: 35px; padding-bottom: 35px">
+    <div id="thumbContainer" class="container">
+        <div class="row">
             <div class="col-sm-2">
-                <img class="img-responsive img-thumbnail proj-thumb" src="img/portfolio.png" onclick="projBtnHandle('#proj1');" style="margin-top: 0px;">
+                <img class="img-responsive img-thumbnail" src="img/portfolio.png" onclick="projBtnHandle('#proj1');">
             </div>
             <div class="col-sm-2">
-                <img class="img-responsive img-thumbnail proj-thumb" src="img/placeholder.jpg" onclick="projBtnHandle('#proj2');" style="margin-top: 0px;">
+                <img class="img-responsive img-thumbnail" src="img/placeholder.jpg" onclick="projBtnHandle('#proj2');">
             </div>
             <div class="col-sm-2">
-                <img class="img-responsive img-thumbnail proj-thumb" src="img/placeholder.jpg" onclick="projBtnHandle('#proj3');" style="margin-top: 0px;">
+                <img class="img-responsive img-thumbnail" src="img/placeholder.jpg" onclick="projBtnHandle('#proj3');">
             </div>
             <div class="col-sm-2">
-                <img class="img-responsive img-thumbnail proj-thumb" src="img/placeholder.jpg" onclick="projBtnHandle('#proj4');" style="margin-top: 0px;">
+                <img class="img-responsive img-thumbnail" src="img/placeholder.jpg" onclick="projBtnHandle('#proj4');">
             </div>
             <div class="col-sm-2">
-                <img class="img-responsive img-thumbnail proj-thumb" src="img/placeholder.jpg" onclick="projBtnHandle('#proj5');" style="margin-top: 0px;">
+                <img class="img-responsive img-thumbnail" src="img/placeholder.jpg" onclick="projBtnHandle('#proj5');">
             </div>
             <div class="col-sm-2">
-                <img class="img-responsive img-thumbnail proj-thumb" src="img/placeholder.jpg" onclick="projBtnHandle('#proj6');" style="margin-top: 0px;">
+                <img class="img-responsive img-thumbnail" src="img/placeholder.jpg" onclick="projBtnHandle('#proj6');">
             </div>
         </div>
     </div>
-    <div id="projDescription" class="container containerCol collapse" style="margin-top: 15px;">
-        <div class="row" id="proj1" hidden style="color: #ccc; margin-top: 30px; margin-bottom: 30px;">
+    <div id="projDescription" class="container collapse">
+        <div class="row descriptionRow" id="proj1" hidden>
             <div class="col-sm-7">
                 <h3>Project Portfolio <small>This page!</small></h3>
                 <p>
@@ -118,89 +117,89 @@
                 </p>
             </div>
             <div class="col-sm-5">
-                <img class="img-responsive" src="img/portfolio.png" style="border-color: #1a1a1a; border-width: 2px;">
-                <div class="text-center"><i style="color: #999;"><small>See the Project <a href="#">Here.</a></small></i></div>
+                <img class="img-responsive" src="img/portfolio.png">
+                <div class="text-center imgCaption"><i><small>See the Project <a href="#">Here.</a></small></i></div>
             </div>
         </div>
 
-        <div class="row" id="proj2" hidden style="color: #ccc; margin-top: 30px; margin-bottom: 30px;">
-            <div class="col-sm-7" style="color: #ccc;">
+        <div class="row descriptionRow" id="proj2" hidden>
+            <div class="col-sm-7">
                 <h3>Project 2</h3>
                 <p>
                     Donec eleifend varius rutrum. Praesent ut nibh quam. Aenean nec ipsum quis turpis iaculis fermentum eget eu sapien. Maecenas vestibulum risus leo, eu condimentum turpis aliquet quis. Morbi consequat congue lorem, eget euismod justo aliquam id. Praesent ultrices sodales neque, ut molestie magna egestas a. Curabitur iaculis pretium faucibus. Etiam sapien felis, euismod sit amet tincidunt sed, aliquam in mauris. Cras hendrerit lacus id suscipit dignissim.
                 </p>
             </div>
             <div class="col-sm-5">
-                <img class="img-responsive" src="img/placeholder.jpg" style="border-color: #1a1a1a; border-width: 2px;">
-                <div class="text-center"><i style="color: #999;"><small>See the Project <a href="placeholder.html" target="_blank">Here.</a></small></i></div>
+                <img class="img-responsive" src="img/placeholder.jpg">
+                <div class="text-center imgCaption"><i><small>See the Project <a href="placeholder.html" target="_blank">Here.</a></small></i></div>
             </div>
         </div>
 
-        <div class="row" id="proj3" hidden style="color: #ccc; margin-top: 30px; margin-bottom: 30px;">
-            <div class="col-sm-7" style="color: #ccc;">
+        <div class="row descriptionRow" id="proj3" hidden>
+            <div class="col-sm-7">
                 <h3>Project 3</h3>
                 <p>
                     Suspendisse bibendum enim libero, eget lobortis elit tristique sed. Suspendisse eget orci vitae nunc semper malesuada vel id nulla. Aliquam purus neque, semper in ex vel, posuere rutrum ante. Vestibulum interdum bibendum facilisis. Duis placerat quis sem maximus suscipit. Integer vehicula turpis ex. Nam semper, mi ut feugiat interdum, magna metus volutpat tortor, nec aliquam metus enim ac ligula.
                 </p>
             </div>
             <div class="col-sm-5">
-                <img class="img-responsive" src="img/placeholder.jpg" style="border-color: #1a1a1a; border-width: 2px;">
-                <div class="text-center"><i style="color: #999;"><small>See the Project <a href="placeholder.html" target="_blank">Here.</a></small></i></div>
+                <img class="img-responsive" src="img/placeholder.jpg">
+                <div class="text-center imgCaption"><i><small>See the Project <a href="placeholder.html" target="_blank">Here.</a></small></i></div>
             </div>
         </div>
 
-        <div class="row" id="proj4" hidden style="color: #ccc; margin-top: 30px; margin-bottom: 30px;">
-            <div class="col-sm-7" style="color: #ccc;">
+        <div class="row descriptionRow" id="proj4" hidden>
+            <div class="col-sm-7">
                 <h3>Project 4</h3>
                 <p>
                     Suspendisse neque lorem, convallis quis lobortis ut, feugiat nec est. Etiam ut efficitur neque. Nunc et risus tempus, lacinia ipsum et, dignissim lorem. Donec id fermentum sapien. Duis aliquam sem risus, vitae vehicula nisi luctus at. Phasellus dictum molestie pulvinar. Nulla facilisi.
                 </p>
             </div>
             <div class="col-sm-5">
-                <img class="img-responsive" src="img/placeholder.jpg" style="border-color: #1a1a1a; border-width: 2px;">
-                <div class="text-center"><i style="color: #999;"><small>See the Project <a href="placeholder.html" target="_blank">Here.</a></small></i></div>
+                <img class="img-responsive" src="img/placeholder.jpg">
+                <div class="text-center imgCaption"><i><small>See the Project <a href="placeholder.html" target="_blank">Here.</a></small></i></div>
             </div>
         </div>
 
-        <div class="row" id="proj5" hidden style="color: #ccc; margin-top: 30px; margin-bottom: 30px;">
-            <div class="col-sm-7" style="color: #ccc;">
+        <div class="row descriptionRow" id="proj5" hidden>
+            <div class="col-sm-7">
                 <h3>Project 5</h3>
                 <p>
                     Donec id porta leo, ac dignissim dui. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Sed commodo leo nunc, ut hendrerit sem lacinia vel. Morbi congue lacus sed ornare viverra. Pellentesque lacinia, nibh eu tempor consectetur, elit turpis tempus sem, euismod maximus eros ipsum a erat. Cras elit ante, vulputate sed risus at, lobortis congue augue. Aliquam maximus tristique nunc, at dictum risus eleifend in. Donec ut mattis tortor, a viverra elit. Suspendisse laoreet velit ac ligula tristique molestie.
                 </p>
             </div>
             <div class="col-sm-5">
-                <img class="img-responsive" src="img/placeholder.jpg" style="border-color: #1a1a1a; border-width: 2px;">
-                <div class="text-center"><i style="color: #999;"><small>See the Project <a href="placeholder.html" target="_blank">Here.</a></small></i></div>
+                <img class="img-responsive" src="img/placeholder.jpg">
+                <div class="text-center imgCaption"><i><small>See the Project <a href="placeholder.html" target="_blank">Here.</a></small></i></div>
             </div>
         </div>
 
-        <div class="row" id="proj6" hidden style="color: #ccc; margin-top: 30px; margin-bottom: 30px;">
-            <div class="col-sm-7" style="color: #ccc;">
+        <div class="row descriptionRow" id="proj6" hidden>
+            <div class="col-sm-7">
                 <h3>Project 6</h3>
                 <p>
                     Quisque eget dignissim augue. In ut dolor imperdiet mauris lacinia laoreet. Aenean ante est, ultrices eget risus eget, viverra iaculis ante. Integer nec lobortis lacus. Etiam at nulla lectus. Etiam consectetur porttitor nulla, eget dignissim neque. Integer ipsum est, bibendum vitae risus eleifend, suscipit rutrum ligula. Donec a felis eros. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Phasellus id lacinia elit. Integer bibendum dui tristique turpis condimentum pulvinar. Proin in pretium enim, in tristique nulla. Vestibulum maximus libero id semper elementum. Donec rutrum vulputate tempor.
                 </p>
             </div>
             <div class="col-sm-5">
-                <img class="img-responsive" src="img/placeholder.jpg" style="border-color: #1a1a1a; border-width: 2px;">
-                <div class="text-center"><i style="color: #999;"><small>See the Project <a href="placeholder.html" target="_blank">Here.</a></small></i></div>
+                <img class="img-responsive" src="img/placeholder.jpg">
+                <div class="text-center imgCaption"><i><small>See the Project <a href="placeholder.html" target="_blank">Here.</a></small></i></div>
             </div>
         </div>
     </div>
 
 
 
-    <div id="contactSection" class="container" style="margin-top: 110px; margin-bottom: 15px">
+    <div id="contactSection" class="container sectionTitle">
         <div class="row">
             <div class="col-xs-12">
-                <h1 style="color:#bbbbbb">Contact <small>In need of Work or a Chat?</small></h1>
+                <h1>Contact <small>In need of Work or a Chat?</small></h1>
             </div>
         </div>
     </div>
-    <div class="container containerCol" style="padding-top: 30px; padding-bottom: 30px; color: #ccc">
+    <div id="contactContainer" class="container">
 
-        <div class="row" style="font-size: 40px;">
+        <div class="row">
             <div class="col-sm-4 text-center">
                 <a href="mailto:not-a-real-email@dontsend.com"><i class="fa fa-envelope-o"></i></a>
             </div>
@@ -213,13 +212,13 @@
         </div>
     </div>
 
-    <div class="containerCol footer" style="margin-top: 110px; margin-bottom: 15px; height: 74px;">
+    <div class="footer sectionTitle">
         <div class="container">
             <div class="row">
-                <div class="col-sm-4 col-sm-offset-4 text-center" style="padding-top: 27px;">
-                    <p>© Copyright 2016 Zair Mubashar</p>
+                <div id="copyrightCol" class="col-sm-4 col-sm-offset-4 text-center">
+                    © Copyright 2016 Zair Mubashar
                 </div>
-                <div class="col-sm-4 text-right" style="padding-top: 21px;">
+                <div class="col-sm-4 text-right iconCol">
                     <a class="footer-link" href="https://github.com" target="_blank"><i class="fa fa-github footer-icon"></i></a>
                 </div>
             </div>
