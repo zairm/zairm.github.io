@@ -1,0 +1,161 @@
+body {
+    margin-top: 15px;
+    //background-color: #666666;
+    background-color: #1a1a1a;
+}
+
+body > nav > .container {
+    background-coloaar: #ff9933;
+}
+
+.containerCol {
+    background-color: #262626;
+}
+
+.navbar-inverse {
+    background-color: #262626;
+}
+/*
+Source/credit for the following two blocks (used to center navbar items):
+http://codepen.io/davidcochran/pen/rcHae
+*/
+
+.nav-center {
+    width: 100%;
+    text-align: center;
+}
+
+.nav-center-item {
+    float: none !important;
+    display: inline-block;
+}
+
+.nav-btn-sm {
+    padding-top: 10px !important;
+    padding-bottom: 10px !important;
+}
+
+.nav-btn-left {
+    border-right-width: 1px;
+    border-left-width: 2px;
+    border-left-style: solid;
+    border-right-style: solid;
+    border-color: #e7e7e7;
+}
+
+.nav-btn-center {
+    border-right-width: 1px;
+    border-left-width: 1px;
+    border-left-style: solid;
+    border-right-style: solid;
+    border-color: #e7e7e7;
+}
+
+.nav-btn-right {
+    border-right-width: 2px;
+    border-left-width: 1px;
+    border-left-style: solid;
+    border-right-style: solid;
+    border-color: #e7e7e7;
+}
+
+.nav-btn-effect {
+    color: #aaaaaa !important;
+    -webkit-transition: color .2s ease-in-out;
+         -o-transition: color .2s ease-in-out;
+            transition: color .2s ease-in-out;
+}
+
+.nav-btn-effect:hover,
+.nav-btn-effect:focus,
+.nav-btn-effect:active {
+    color: #337ab7 !important;
+}
+/*
+.nav-btn-effect > .thumbnail {
+    border-color: #262626;
+}
+
+.nav-btn-effect:hover > .thumbnail {
+    border-color: #337ab7 !important;
+    }*/
+
+/*.nav-thumb:hover {
+    border-color: #337ab7 !important;
+    color: #337ab7;
+    }*/
+/*
+Classes for the About section
+*/
+
+.floater-block {
+    background-color: #333333;
+    padding: 30px 45px 30px 45px;
+    box-shadow: 20px 20px 1px #666666,
+    inset 1px 1px 1px #666666;
+    color:#cccccc;
+    border-radius: 3px;
+}
+
+/*
+Classes for the Project section
+*/
+
+.proj-thumb-div {
+    background-color: #aaaaaa;
+    padding: 15px;
+}
+
+.proj-thumb-img {
+    cursor: pointer;
+}
+
+.proj-text-exterior {
+    background-color: #e0e0e0;
+}
+
+.proj-text-interior {
+    padding: 15px 60px 15px 60px;
+    margin: 45px -15px 45px -15px;
+    background-color: #cccccc;
+}
+
+.proj-thumb {
+    margin-top: 10px;
+    background-color: #262626;
+    cursor: pointer;
+    /*border-color: #666;*/
+}
+
+/*Normal like hover color: #23527c
+We have the non-hover link color in the hover class.
+Should switch to the mentioned color upon clicking thumbnail*/
+.proj-thumb:hover {
+    border-color: #337ab7;
+}
+
+.proj-thumb-active {
+    border-color: #23527c;
+}
+
+/*
+Classes for the footer section
+*/
+
+.footer{
+    color: #cccccc;
+}
+
+.footer-link {
+    color: #aaaaaa;
+}
+
+.footer-link:hover,
+.footer-link:focus,
+.footer-link:active {
+    color: #888888;
+}
+
+.footer-icon {
+    font-size: 34px;
+}

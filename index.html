@@ -1,0 +1,239 @@
+<!doctype html>
+<html>
+<head>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+
+    <title>Zair | Portfolio</title>
+    <meta chartset="UTF-8">
+    <meta name="author" content="Zair">
+    <meta name="description" content="Zair's web development portfolio.">
+    <meta name="keywords" content="Zair,Portfolio,Web,Development,Developer">
+
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <!-- Font Awesome -->
+    <link href="css/font-awesome.min.css" rel="stylesheet">
+    <!-- Custom CSS -->
+    <link href="css/portfolio.css" rel="stylesheet">
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+      <![endif]-->
+  </head>
+
+  <body>
+    <nav class="navbar navbar-inverse navbar-static-top" style="margin-bottom: 0px;">
+        <div class="container containerCol">
+            <div class="row">
+                <div class="col-sm-4 nav" style="padding-left: 0px; padding-right: 0px;">
+                    <ul class="nav navbar-nav" style="width:100%; text-align: center;">
+                        <li class="nav-center-item"><a class="nav-btn-effect" href="#aboutSection">About</a></li>
+                    </ul>
+                </div>
+                <div class="col-sm-4" style="padding-left: 0px; padding-right: 0px;">
+                    <ul class="nav navbar-nav" style="width:100%; text-align: center;">
+                        <li class="nav-center-item"><a class="nav-btn-effect" href="#projectsSection">Projects</a></li>
+                    </ul>
+                </div>
+                <div class="col-sm-4" style="padding-left: 0px; padding-right: 0px;">
+                    <ul class="nav navbar-nav" style="width:100%; text-align: center;">
+                        <li class="nav-center-item"><a class="nav-btn-effect" href="#contactSection">Contact</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <div id="aboutSection" style="padding-top: 30px;">
+        <div class="container containerCol" style="color: #ccc; padding-top: 30px; padding-bottom: 45px;">
+            <div class="row">
+                <div class="col-sm-8" style="border-color: #1a1a1a; border-width: 5px; border-style: solid; border-left: 0px; border-top: 0px; border-right: 0px;">
+                    <h1>Hi There!</h1>
+                    <br>
+                    <p class="lead">I'm Zair - a GTA based web developer and designer in developement, with a goal towards full stack developement.</p>
+                </div>
+            </div>
+            <p style="padding: 20px;"></p>
+            <div class="row">
+                <div class="col-sm-9 col-sm-offset-3" style="border-color: #1a1a1a; border-width: 0px; border-bottom: 5px solid #1a1a1a; border-left: 5px solid #1a1a1a;">
+                    <h2>My Focus</h2>
+                    <p style="margin-bottom: 20px;">
+                        I like to keep my design sweet, simple, and intuitive. To me, a good website is one that effortlessly delivers on its function, and then looks good - not the other way around.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="projectsSection" class="container" style="margin-top: 110px; margin-bottom: 15px">
+        <div class="row">
+            <div class="col-xs-12">
+                <h1 style="color:#bbbbbb;">Projects <small>With an Elegant Simplcity in mind.</small></h1>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="container containerCol">
+        <div class="row" style="padding-top: 35px; padding-bottom: 35px">
+            <div class="col-sm-2">
+                <img class="img-responsive img-thumbnail proj-thumb" src="img/portfolio.png" onclick="projBtnHandle('#proj1');" style="margin-top: 0px;">
+            </div>
+            <div class="col-sm-2">
+                <img class="img-responsive img-thumbnail proj-thumb" src="img/placeholder.jpg" onclick="projBtnHandle('#proj2');" style="margin-top: 0px;">
+            </div>
+            <div class="col-sm-2">
+                <img class="img-responsive img-thumbnail proj-thumb" src="img/placeholder.jpg" onclick="projBtnHandle('#proj3');" style="margin-top: 0px;">
+            </div>
+            <div class="col-sm-2">
+                <img class="img-responsive img-thumbnail proj-thumb" src="img/placeholder.jpg" onclick="projBtnHandle('#proj4');" style="margin-top: 0px;">
+            </div>
+            <div class="col-sm-2">
+                <img class="img-responsive img-thumbnail proj-thumb" src="img/placeholder.jpg" onclick="projBtnHandle('#proj5');" style="margin-top: 0px;">
+            </div>
+            <div class="col-sm-2">
+                <img class="img-responsive img-thumbnail proj-thumb" src="img/placeholder.jpg" onclick="projBtnHandle('#proj6');" style="margin-top: 0px;">
+            </div>
+        </div>
+    </div>
+    <div id="projDescription" class="container containerCol collapse" style="margin-top: 15px;">
+        <div class="row" id="proj1" hidden style="color: #ccc; margin-top: 30px; margin-bottom: 30px;">
+            <div class="col-sm-7">
+                <h3>Project Portfolio <small>This page!</small></h3>
+                <p>
+                     The intention here was to deliver the core content and functionality in a minimalistic and pleasing way.
+                </p>
+                <p>
+                    The core content is comprised of a hearty greeting, basic information about me as a web-dev, and a showcase of my projects. Desiring an ability to talk a bit about these projects while keeping clutter to a minimum, I worked out the current thumbnail system.
+                </p>
+                <p>
+                    The core functionality is comprised of ability to contact me. Because I'll likely want to send replies, I've only provided contact methods that allow me this capability. There's also the navigation bar, which I feel is un-needed due to the small page size, but I've kept for convention's sake.
+                </p>
+                <p>
+                    The visual style expresses as much as possible in as little as possible. To do thi,s I've kept text to the meaningful minimum and focused heavily on visibility of what is present.
+                </p>
+            </div>
+            <div class="col-sm-5">
+                <img class="img-responsive" src="img/portfolio.png" style="border-color: #1a1a1a; border-width: 2px;">
+                <div class="text-center"><i style="color: #999;"><small>See the Project <a href="#">Here.</a></small></i></div>
+            </div>
+        </div>
+
+        <div class="row" id="proj2" hidden style="color: #ccc; margin-top: 30px; margin-bottom: 30px;">
+            <div class="col-sm-7" style="color: #ccc;">
+                <h3>Project 2</h3>
+                <p>
+                    Donec eleifend varius rutrum. Praesent ut nibh quam. Aenean nec ipsum quis turpis iaculis fermentum eget eu sapien. Maecenas vestibulum risus leo, eu condimentum turpis aliquet quis. Morbi consequat congue lorem, eget euismod justo aliquam id. Praesent ultrices sodales neque, ut molestie magna egestas a. Curabitur iaculis pretium faucibus. Etiam sapien felis, euismod sit amet tincidunt sed, aliquam in mauris. Cras hendrerit lacus id suscipit dignissim.
+                </p>
+            </div>
+            <div class="col-sm-5">
+                <img class="img-responsive" src="img/placeholder.jpg" style="border-color: #1a1a1a; border-width: 2px;">
+                <div class="text-center"><i style="color: #999;"><small>See the Project <a href="placeholder.html" target="_blank">Here.</a></small></i></div>
+            </div>
+        </div>
+
+        <div class="row" id="proj3" hidden style="color: #ccc; margin-top: 30px; margin-bottom: 30px;">
+            <div class="col-sm-7" style="color: #ccc;">
+                <h3>Project 3</h3>
+                <p>
+                    Suspendisse bibendum enim libero, eget lobortis elit tristique sed. Suspendisse eget orci vitae nunc semper malesuada vel id nulla. Aliquam purus neque, semper in ex vel, posuere rutrum ante. Vestibulum interdum bibendum facilisis. Duis placerat quis sem maximus suscipit. Integer vehicula turpis ex. Nam semper, mi ut feugiat interdum, magna metus volutpat tortor, nec aliquam metus enim ac ligula.
+                </p>
+            </div>
+            <div class="col-sm-5">
+                <img class="img-responsive" src="img/placeholder.jpg" style="border-color: #1a1a1a; border-width: 2px;">
+                <div class="text-center"><i style="color: #999;"><small>See the Project <a href="placeholder.html" target="_blank">Here.</a></small></i></div>
+            </div>
+        </div>
+
+        <div class="row" id="proj4" hidden style="color: #ccc; margin-top: 30px; margin-bottom: 30px;">
+            <div class="col-sm-7" style="color: #ccc;">
+                <h3>Project 4</h3>
+                <p>
+                    Suspendisse neque lorem, convallis quis lobortis ut, feugiat nec est. Etiam ut efficitur neque. Nunc et risus tempus, lacinia ipsum et, dignissim lorem. Donec id fermentum sapien. Duis aliquam sem risus, vitae vehicula nisi luctus at. Phasellus dictum molestie pulvinar. Nulla facilisi.
+                </p>
+            </div>
+            <div class="col-sm-5">
+                <img class="img-responsive" src="img/placeholder.jpg" style="border-color: #1a1a1a; border-width: 2px;">
+                <div class="text-center"><i style="color: #999;"><small>See the Project <a href="placeholder.html" target="_blank">Here.</a></small></i></div>
+            </div>
+        </div>
+
+        <div class="row" id="proj5" hidden style="color: #ccc; margin-top: 30px; margin-bottom: 30px;">
+            <div class="col-sm-7" style="color: #ccc;">
+                <h3>Project 5</h3>
+                <p>
+                    Donec id porta leo, ac dignissim dui. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Sed commodo leo nunc, ut hendrerit sem lacinia vel. Morbi congue lacus sed ornare viverra. Pellentesque lacinia, nibh eu tempor consectetur, elit turpis tempus sem, euismod maximus eros ipsum a erat. Cras elit ante, vulputate sed risus at, lobortis congue augue. Aliquam maximus tristique nunc, at dictum risus eleifend in. Donec ut mattis tortor, a viverra elit. Suspendisse laoreet velit ac ligula tristique molestie.
+                </p>
+            </div>
+            <div class="col-sm-5">
+                <img class="img-responsive" src="img/placeholder.jpg" style="border-color: #1a1a1a; border-width: 2px;">
+                <div class="text-center"><i style="color: #999;"><small>See the Project <a href="placeholder.html" target="_blank">Here.</a></small></i></div>
+            </div>
+        </div>
+
+        <div class="row" id="proj6" hidden style="color: #ccc; margin-top: 30px; margin-bottom: 30px;">
+            <div class="col-sm-7" style="color: #ccc;">
+                <h3>Project 6</h3>
+                <p>
+                    Quisque eget dignissim augue. In ut dolor imperdiet mauris lacinia laoreet. Aenean ante est, ultrices eget risus eget, viverra iaculis ante. Integer nec lobortis lacus. Etiam at nulla lectus. Etiam consectetur porttitor nulla, eget dignissim neque. Integer ipsum est, bibendum vitae risus eleifend, suscipit rutrum ligula. Donec a felis eros. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Phasellus id lacinia elit. Integer bibendum dui tristique turpis condimentum pulvinar. Proin in pretium enim, in tristique nulla. Vestibulum maximus libero id semper elementum. Donec rutrum vulputate tempor.
+                </p>
+            </div>
+            <div class="col-sm-5">
+                <img class="img-responsive" src="img/placeholder.jpg" style="border-color: #1a1a1a; border-width: 2px;">
+                <div class="text-center"><i style="color: #999;"><small>See the Project <a href="placeholder.html" target="_blank">Here.</a></small></i></div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <div id="contactSection" class="container" style="margin-top: 110px; margin-bottom: 15px">
+        <div class="row">
+            <div class="col-xs-12">
+                <h1 style="color:#bbbbbb">Contact <small>In need of Work or a Chat?</small></h1>
+            </div>
+        </div>
+    </div>
+    <div class="container containerCol" style="padding-top: 30px; padding-bottom: 30px; color: #ccc">
+
+        <div class="row" style="font-size: 40px;">
+            <div class="col-sm-4 text-center">
+                <a href="mailto:not-a-real-email@dontsend.com"><i class="fa fa-envelope-o"></i></a>
+            </div>
+            <div class="col-sm-4 text-center">
+                <a href="https://www.facebook.com" target="_blank"><i class="fa fa-facebook"></i></a>
+            </div>
+            <div class="col-sm-4 text-center">
+                <a href="https://www.linkedin.com" target="_blank"><i class="fa fa-linkedin"></i></a>
+            </div>
+        </div>
+    </div>
+
+    <div class="containerCol footer" style="margin-top: 110px; margin-bottom: 15px; height: 74px;">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-4 col-sm-offset-4 text-center" style="padding-top: 27px;">
+                    <p>© Copyright 2016 Zair Mubashar</p>
+                </div>
+                <div class="col-sm-4 text-right" style="padding-top: 21px;">
+                    <a class="footer-link" href="https://github.com" target="_blank"><i class="fa fa-github footer-icon"></i></a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</div>
+<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+<!-- Try working with jquery 2.2.4 instead -->
+<!-- script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+<!-- Include all compiled plugins (below), or include individual files as needed -->
+<script src="js/bootstrap.min.js"></script>
+<!-- Custom JavaScript -->
+<script src="js/portfolio.js"></script>
+</body>
+</html>
