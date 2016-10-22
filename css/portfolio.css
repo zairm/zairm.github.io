@@ -167,6 +167,10 @@ navbar <ul>'s
     color: #999999;
 }
 
+.workInProgress {
+    color: red;
+}
+
 /**************************
     Contact Section CSS
 **************************/
