@@ -8,7 +8,7 @@
 // the onclick events on the thumbnails only upon reaching this file.
 
 function accordionHandlerGen() {
-    oldId = null;
+    var oldId = null;
     function accordionHandler(contentId) {
         if (oldId) {
             $(oldId).collapse('hide');
@@ -26,8 +26,8 @@ function accordionHandlerGen() {
 var handle = accordionHandlerGen();
 
 function projFnGen() {
-    containerOpen = false;
-    projOpen = null;
+    var containerOpen = false;
+    var projOpen = null;
 
     function projFn(proj) {
         if (containerOpen) {
@@ -55,7 +55,7 @@ function projFnGen() {
 }
 
 function projThumbFnGen() {
-    lastThumb = null;
+    var lastThumb = null;
 
     function projThumbFn(event) {
         if (lastThumb) lastThumb.removeClass("thumbnail-active");
@@ -72,8 +72,8 @@ function projThumbFnGen() {
 }
 
 function projBtnHandlerGen() {
-    internalProjFn = projFnGen();
-    internalProjThumbFn = projThumbFnGen();
+    var internalProjFn = projFnGen();
+    var internalProjThumbFn = projThumbFnGen();
 
     function projBtnHandler(proj) {
         internalProjThumbFn(event);
